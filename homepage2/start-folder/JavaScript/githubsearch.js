@@ -23,3 +23,5 @@ document.getElementById("searchBtn").addEventListener("click", () => {
             resultDiv.innerHTML = `<p style="color:red;">${err.message}</p>`;
         });
 });
+
+//コメント
