@@ -1,0 +1,94 @@
+/* 全体の設定 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+/* ヘッダー */
+header {
+    background-color: #4145b5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 15px 0 25px;
+    font-size: 28px;
+}
+
+/* ナビゲーション */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* メイン部分 */
+main {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+/* 電卓のカード */
+.calculator {
+    width: 430px;
+    padding: 25px 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* 計算式の見出し */
+.calculator h2 {
+    margin-bottom: 25px;
+    font-size: 22px;
+}
+
+/* 入力欄 */
+.calculator input {
+    width: 140px;
+    padding: 8px;
+    margin: 10px 0 25px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* 演算子の選択欄 */
+.calculator select {
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+/* 計算式と計算結果 */
+#formula,
+#result {
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+/* フッター */
+footer {
+    background-color: #4145b5;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+}
